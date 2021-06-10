@@ -30,10 +30,12 @@ namespace Inventory.Api.Controllers
             }
             catch (ProductNotValidException notValidError)
             {
+                _logger.LogInformation("Error on creating product: {0}", notValidError.Message);
                 return BadRequest(notValidError.Message);
             }
             catch (ProductAlreadyExistsExeption alreadyExistsException)
             {
+                _logger.LogInformation("Error on creating product: {0}", alreadyExistsException.Message);
                 return BadRequest(alreadyExistsException.Message);
             }
         }
@@ -48,6 +50,7 @@ namespace Inventory.Api.Controllers
             }
             catch (ProductNotFoundExeption notFoundError)
             {
+                _logger.LogInformation("Error on retrieving product: {0}", notFoundError.Message);
                 return NotFound(notFoundError.Message);
             }
         }
@@ -63,10 +66,12 @@ namespace Inventory.Api.Controllers
             }
             catch (ProductNotValidException notValidError)
             {
+                _logger.LogInformation("Error on updating product: {0}", notValidError.Message);
                 return BadRequest(notValidError.Message);
             }
             catch (ProductNotFoundExeption notFoundError)
             {
+                _logger.LogInformation("Error on updating product: {0}", notFoundError.Message);
                 return NotFound(notFoundError.Message);
             }
         }
@@ -82,6 +87,7 @@ namespace Inventory.Api.Controllers
             }
             catch (ProductNotFoundExeption notFoundError)
             {
+                _logger.LogInformation("Error on deleting product: {0}", notFoundError.Message);
                 return NotFound(notFoundError.Message);
             }
         }
