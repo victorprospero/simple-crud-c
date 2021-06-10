@@ -1,6 +1,6 @@
 ﻿namespace Inventory.Middleware.Models
 {
-    public class Product
+    public class Product : BaseModel
     {
         private InventoryProduct _inventory = new InventoryProduct();
 

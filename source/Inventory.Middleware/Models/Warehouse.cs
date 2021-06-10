@@ -1,6 +1,6 @@
 ﻿namespace Inventory.Middleware.Models
 {
-    public class Warehouse
+    public class Warehouse : BaseModel
     {
         public string locality { get; set; }
         public uint quantity { get; set; }
