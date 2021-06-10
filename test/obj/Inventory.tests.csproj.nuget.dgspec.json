@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\gitVictor\\test-c\\test\\Inventory.tests.csproj": {}
+    "C:\\gitVictor\\test-c\\test\\Inventory.Tests.csproj": {}
   },
   "projects": {
-    "C:\\gitVictor\\test-c\\source\\Inventory.api.csproj": {
+    "C:\\gitVictor\\test-c\\source\\Inventory.Middleware\\Inventory.Middleware.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\gitVictor\\test-c\\source\\Inventory.api.csproj",
-        "projectName": "Inventory.api",
-        "projectPath": "C:\\gitVictor\\test-c\\source\\Inventory.api.csproj",
+        "projectUniqueName": "C:\\gitVictor\\test-c\\source\\Inventory.Middleware\\Inventory.Middleware.csproj",
+        "projectName": "Inventory.Middleware",
+        "projectPath": "C:\\gitVictor\\test-c\\source\\Inventory.Middleware\\Inventory.Middleware.csproj",
         "packagesPath": "C:\\Users\\tocad\\.nuget\\packages\\",
-        "outputPath": "C:\\gitVictor\\test-c\\source\\obj\\",
+        "outputPath": "C:\\gitVictor\\test-c\\source\\Inventory.Middleware\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -44,37 +44,9 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
-            "AutoMapper": {
-              "target": "Package",
-              "version": "[10.0.0, )"
-            },
-            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
-              "target": "Package",
-              "version": "[8.0.1, )"
-            },
             "FluentValidation": {
               "target": "Package",
               "version": "[10.2.3, )"
-            },
-            "MOQ": {
-              "target": "Package",
-              "version": "[4.16.1, )"
-            },
-            "MediatR.Extensions.Microsoft.DependencyInjection": {
-              "target": "Package",
-              "version": "[8.1.0, )"
-            },
-            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
-              "target": "Package",
-              "version": "[3.1.8, )"
-            },
-            "Microsoft.EntityFrameworkCore.InMemory": {
-              "target": "Package",
-              "version": "[3.1.8, )"
-            },
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[5.6.3, )"
             }
           },
           "imports": [
@@ -88,23 +60,20 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\gitVictor\\test-c\\test\\Inventory.tests.csproj": {
+    "C:\\gitVictor\\test-c\\test\\Inventory.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\gitVictor\\test-c\\test\\Inventory.tests.csproj",
-        "projectName": "Inventory.tests",
-        "projectPath": "C:\\gitVictor\\test-c\\test\\Inventory.tests.csproj",
+        "projectUniqueName": "C:\\gitVictor\\test-c\\test\\Inventory.Tests.csproj",
+        "projectName": "Inventory.Tests",
+        "projectPath": "C:\\gitVictor\\test-c\\test\\Inventory.Tests.csproj",
         "packagesPath": "C:\\Users\\tocad\\.nuget\\packages\\",
         "outputPath": "C:\\gitVictor\\test-c\\test\\obj\\",
         "projectStyle": "PackageReference",
@@ -127,8 +96,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\gitVictor\\test-c\\source\\Inventory.api.csproj": {
-                "projectPath": "C:\\gitVictor\\test-c\\source\\Inventory.api.csproj"
+              "C:\\gitVictor\\test-c\\source\\Inventory.Middleware\\Inventory.Middleware.csproj": {
+                "projectPath": "C:\\gitVictor\\test-c\\source\\Inventory.Middleware\\Inventory.Middleware.csproj"
               }
             }
           }
@@ -187,7 +156,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

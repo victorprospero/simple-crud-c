@@ -1,0 +1,8 @@
+C:\gitVictor\test-c\source\Inventory.Middleware\bin\Debug\netcoreapp3.1\Inventory.Middleware.deps.json
+C:\gitVictor\test-c\source\Inventory.Middleware\bin\Debug\netcoreapp3.1\Inventory.Middleware.dll
+C:\gitVictor\test-c\source\Inventory.Middleware\bin\Debug\netcoreapp3.1\Inventory.Middleware.pdb
+C:\gitVictor\test-c\source\Inventory.Middleware\obj\Debug\netcoreapp3.1\Inventory.Middleware.AssemblyInfoInputs.cache
+C:\gitVictor\test-c\source\Inventory.Middleware\obj\Debug\netcoreapp3.1\Inventory.Middleware.AssemblyInfo.cs
+C:\gitVictor\test-c\source\Inventory.Middleware\obj\Debug\netcoreapp3.1\Inventory.Middleware.csproj.CoreCompileInputs.cache
+C:\gitVictor\test-c\source\Inventory.Middleware\obj\Debug\netcoreapp3.1\Inventory.Middleware.dll
+C:\gitVictor\test-c\source\Inventory.Middleware\obj\Debug\netcoreapp3.1\Inventory.Middleware.pdb
