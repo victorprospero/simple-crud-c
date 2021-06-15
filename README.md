@@ -2,6 +2,7 @@
 
 A simple CRUD RESTFul WebApi
 
+* .NET Core
 * Swagger UI
 * MVC Layered Architecture
 * FluentValidations
